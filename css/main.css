@@ -1,15 +1,78 @@
-/* START: header */
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif;
+}
 
+/* START: header */
+    header {
+
+    }
 /* END: header */
 
 
 
 /* START: hero */
+.hero {
 
+}
 /* END: hero */
 
 
 
-/* START: clients logo list */
+/* START: about-me */
+.about-me {
 
-/* END: clients logo list */
+}
+/* END: about-me */
+
+
+
+/* START: services */
+.services {
+
+}
+/* END: services */
+
+
+
+/* START: resume */
+.resume {
+
+}
+/* END: resume */
+
+
+
+/* START: our-work */
+.our-work {
+
+}
+/* END: our-work */
+
+
+
+/* START: blog */
+.blog {
+
+}
+/* END: blog */
+
+
+
+/* START: contact */
+.contact {
+
+}
+/* END: contact */
+
+
+
+/* START: Footer */
+footer {
+
+}
+/* END: Footer */
