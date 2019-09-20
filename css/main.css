@@ -27,7 +27,7 @@ background-image: url(../img/Heroes\ photo.jpg);
 width: 100%;
 min-height: 100vh;
 background-size: cover;
-background-position: center;
+background-position: bottom center;
 background-attachment: fixed;
 text-align: center;
 }
@@ -39,22 +39,39 @@ text-align: center;
     }
         .welcome-txt {
             display: inline-block;
+            width: 100%;
             justify-content: center;
             color: #fff;
         }    
 
-            h2 {
-            font-size: 55px;
-            font-weight: 300;
-            margin-top: 30%;
+            .welcome-txt h2 {
+                display: inline-block;
+                width: 100%;
+                font-size: 55px;
+                font-weight: 300;
+                margin-top: 10%;
+                margin-bottom: -30px;
             }
 
-            h1 {
+            .welcome-txt h1 {
+                display: inline-block;
+                width: 100%;
                 font-size: 90px;
                 font-weight: 600px;
                 letter-spacing: 2px;
-                padding: 20px 0 35 px;
+                padding-top: -20px;
             }
+            .welcome-txt p {
+                display: inline-block;
+                width: 100%;
+                font-size: 15px;
+                font-weight: 300;
+                margin: 10px 0 20px;
+            }
+
+    .welcome > .btn {
+        margin-top: 40px;
+    }
 
 
 /* END: hero */
