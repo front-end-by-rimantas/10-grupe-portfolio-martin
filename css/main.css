@@ -25,14 +25,15 @@
 display: inline-block;
 background-image: url(../img/Heroes\ photo.jpg);
 width: 100%;
-height: 100vh;
+min-height: 100vh;
 background-size: cover;
 background-position: center;
+background-attachment: fixed;
 text-align: center;
 }
     .welcome {
         display: inline-block;
-        height: 100%;
+        height: 100vh;
         width: 100%;
         background-color:  rgba(0,0,0,0.5);
     }
