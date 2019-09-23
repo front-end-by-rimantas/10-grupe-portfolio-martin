@@ -1,3 +1,10 @@
+.main-color-bg {
+    background-color: var(--main-color);
+}
+.light-main-color {
+    background-color: var(--light-main-color);
+}
+
 .section-title {
     display: inline-block;
     width: 100%;
