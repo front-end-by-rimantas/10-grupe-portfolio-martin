@@ -1,3 +1,10 @@
+.main-color {
+    background-color: var(--main-color);
+}
+.light-main-color {
+    background-color: var(--light-main-color);
+}
+
 .section-title {
     display: inline-block;
     width: 100%;
@@ -18,9 +25,6 @@
     }
 /* END: header */
 
-
-
-/* START: hero */
 .hero {
 display: inline-block;
 background-image: url(../img/Heroes\ photo.jpg);
@@ -71,8 +75,12 @@ text-align: center;
 
     .welcome > .btn {
         margin-top: 40px;
+        cursor: pointer;
     }
 
+    h3 {
+        text-align: center;
+    }
 
 /* END: hero */
 
@@ -87,28 +95,263 @@ text-align: center;
 
 
 /* START: services */
-.services {
+section .services {
+    display: inline-block;
+    width: 100%;
+}
 
+ .services i.fa {
+    display: inline-block;
+    /* width: 40px; */
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+    /* padding: 30px; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    margin-right: 128px;
+    margin-left: 75px;
+    text-decoration: none;
+    border-radius: 80px;
+    text-align: center;
+    position: static;
+    
+}
+
+
+
+.services h4 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.services p {
+    text-align: center;
+}
+
+.services .block1 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    margin-right: 35px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+
+.services .block2 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+
+.services .block3 {
+    display: inline-block;
+    /* float: right; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
 }
 /* END: services */
 
 
 
 /* START: resume */
-.resume {
+.column-left {
+    display: inline-block;
+    width: 47%;
+    height: 450px;
+    margin-right: 2%;
+    padding: 40px 60px 0px 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 
 }
+.column-right {
+    display: inline-block;
+    width: 47%;
+    height: 450PX;
+    margin-left: 2%;
+    padding: 40px 60px 0px 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.resume h5 {
+    color: #f34236;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.resume h6 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.resume p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    }
+
+.resume p span {
+    width: 100%;
+    font-style: italic;
+    text-transform: uppercase;
+}
 /* END: resume */
+
+/* START aviable */
+.available {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+/* END aviable */
 
 
 
 /* START: our-work */
-.our-work {
 
+.our-work .image1 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    margin-right: 35px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
 }
+
+.our-work .image2 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.our-work .image3 {
+    display: inline-block;
+    /* float: right; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+    
+}
+
+
+.our-work .image4 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    margin-right: 35px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.our-work .image5 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.our-work .image6 {
+    display: inline-block;
+    /* float: right; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+    
+}
+
 /* END: our-work */
 
-
+.testimonials {
+    display: inline-block;
+    width: 100%;
+}
 
 /* START: blog */
 .blog {
