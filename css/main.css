@@ -19,7 +19,6 @@
 /* END: header */
 
 
-
 /* START: hero */
 .hero {
 display: inline-block;
@@ -49,7 +48,8 @@ text-align: center;
                 width: 100%;
                 font-size: 55px;
                 font-weight: 300;
-                margin: 70px 0 -20px;
+                margin-top: 10%;
+                margin-bottom: -30px;
             }
 
             .welcome-txt h1 {
@@ -65,13 +65,16 @@ text-align: center;
                 width: 100%;
                 font-size: 15px;
                 font-weight: 300;
-                margin: 15px 0 30px;
+                margin: 10px 0 20px;
             }
 
     .welcome > .btn {
         margin-top: 40px;
     }
 
+    h3 {
+        text-align: center;
+    }
 
 /* END: hero */
 
@@ -86,8 +89,80 @@ text-align: center;
 
 
 /* START: services */
-.services {
 
+
+ .services i.fa {
+    display: inline-block;
+    /* width: 40px; */
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 40px;
+    line-height: 80px;
+    /* padding: 30px; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    margin-right: 128px;
+    margin-left: 75px;
+    text-decoration: none;
+    border-radius: 80px;
+    text-align: center;
+    position: static;
+    
+}
+
+
+
+.services h4 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.services p {
+    text-align: center;
+}
+
+.services .block1 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    margin-right: 35px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+
+.services .block2 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+
+.services .block3 {
+    display: inline-block;
+    /* float: right; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
 }
 /* END: services */
 
