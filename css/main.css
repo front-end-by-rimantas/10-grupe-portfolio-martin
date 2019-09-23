@@ -235,9 +235,117 @@ section .services {
 
 
 /* START: our-work */
-.our-work {
 
+.our-work .image1 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    margin-right: 35px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
 }
+
+.our-work .image2 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.our-work .image3 {
+    display: inline-block;
+    /* float: right; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+    
+}
+
+
+.our-work .image4 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    margin-right: 35px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.our-work .image5 {
+    display: inline-block;
+    /* float: left; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+}
+
+
+.our-work .image6 {
+    display: inline-block;
+    /* float: right; */
+    background-color: white;
+    /* width: 30%; */
+    width: 350px;
+    padding: 40px 20px;
+    padding: 60px;
+    margin: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    display: inline-block;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
+    
+}
+
 /* END: our-work */
 
 .testimonials {
