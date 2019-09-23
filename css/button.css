@@ -12,3 +12,17 @@
     .btn:hover {
         border-radius: 7px;
     }
+
+    .btn-white{
+        display: inline-block;
+        background-color: #fff;
+        color: #000000;
+        padding: 10px 25px;
+        border-radius: 20px;
+        transition: border-radius 0.2s;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+        .btn-white:hover {
+            border-radius: 7px;
+        }
