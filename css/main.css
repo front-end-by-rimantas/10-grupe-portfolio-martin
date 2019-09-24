@@ -202,7 +202,6 @@ section .services {
 
     display: inline-block;
     width: calc( (100% - 90px) / 3 );
-    /* float: left; */
     padding: 60px 40px 20px;
     margin-right: 30px;
     margin-bottom: 40px;
@@ -275,7 +274,7 @@ section .services {
 }
 /* END: resume */
 
-/* START aviable */
+/* START avilable */
 .available {
     color: #fff;
     text-align: center;
@@ -284,7 +283,7 @@ section .services {
 .available .btn {
     margin-bottom: 5px;
 }
-/* END aviable */
+/* END avilable */
 
 .available h3::after {
     display:none;
@@ -312,6 +311,31 @@ section .services {
     display: inline-block;
     width: 100%;
 }
+
+.container .row .testimonials-block {
+    display: block;
+    width: 40%;
+    padding: 60px 40px 20px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 12px #0005;
+    border-radius: 4px;
+    background-color: white;
+    }
+
+    .testimonials-block img {
+        border-radius: 50%;
+        width: 100px;
+    }
+
+    .testimonials-block p {
+        color: gray;
+        margin-top: 20px;
+    }
+
+    .testimonials-block h5 {
+        margin-top: 20px;
+    }
 
 /* START: blog */
 .blog {
