@@ -5,5 +5,5 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-        word-break: break-all;
+    word-break: keep-all;
 }
