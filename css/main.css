@@ -299,16 +299,27 @@ section .services {
 /* START: blog */
 .My-blogs {
     display: inline-block;
+    width: 100%;
+    }
+
+    .blogs_block {
+    display: inline-block;
     width: 30%;
     float: left;
+    margin: 0 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    }
 
     .blogs-images {
         display: inline-block;
         width: 100%;
         overflow: hidden;
+        /* float: left; */
     }
+        .blogs_block {
+            display: inline-block;
+            float: left;
+        }
         .blogs-images > img {
             display: inline-block;
             width: 100%;
@@ -328,7 +339,7 @@ section .services {
         line-height: 15px;
         font-weight: 200;
     }
-        .My-blogs > .blogs-images + h6 {
+        .blogs-images + h6 {
             border-right: #828282 solid 1px;
             padding-right: 15px;
         }
