@@ -1,11 +1,18 @@
+.main-color {
+    background-color: var(--main-color);
+}
+.light-main-color {
+    background-color: var(--light-main-color);
+}
+
 .section-title {
     display: inline-block;
     width: 100%;
     font-size: 35px;
-    line-height: 45px;
+    /* line-height: 45px; */
     position: relative;
     padding-bottom: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
     .section-title span {
@@ -55,16 +62,13 @@
             }
 /* END: header */
 
-
-
-/* START: hero */
 .hero {
 display: inline-block;
 background-image: url(../img/Heroes\ photo.jpg);
 width: 100%;
 min-height: 100vh;
 background-size: cover;
-background-position: center;
+background-position: top center;
 background-attachment: fixed;
 text-align: center;
 }
@@ -76,59 +80,299 @@ text-align: center;
     }
         .welcome-txt {
             display: inline-block;
+            width: 100%;
             justify-content: center;
             color: #fff;
         }    
 
-            h2 {
-            font-size: 55px;
-            font-weight: 300;
-            margin-top: 30%;
+            .welcome-txt h2 {
+                display: inline-block;
+                width: 100%;
+                font-size: 55px;
+                font-weight: 300;
+                margin-top: 10%;
+                margin-bottom: -30px;
             }
 
-            h1 {
+            .welcome-txt h1 {
+                display: inline-block;
+                width: 100%;
                 font-size: 90px;
                 font-weight: 600px;
                 letter-spacing: 2px;
-                padding: 20px 0 35 px;
+                padding-top: -20px;
+            }
+            .welcome-txt p {
+                display: inline-block;
+                width: 100%;
+                font-size: 15px;
+                font-weight: 300;
+                margin: 10px 0 20px;
             }
 
+    .welcome > .btn {
+        margin-top: 40px;
+        cursor: pointer;
+    }
 
+    h3 {
+        text-align: center;
+    }
+
+    h3::after {
+        width: 60px;
+        height: 3px;
+        background: #000;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 15px;
+    }
 /* END: hero */
 
-
-
 /* START: about-me */
-.about-me {
+.martin_photo {
+    display: inline-block;
+    background-color: white;
+    float: left;
+    width: 40%;
+    margin-right: 60px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-size: cover;
+    padding: 5px;
+    }
 
+.about_right {
+    display: inline-block;
+    width: 55%;
+    float: left;
 }
+
+.about_right h3::after {
+    margin-left: -3px;
+}
+
+    .about_right .section-title {
+        text-align: left;
+    }
+    .about_right h4 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 15px;
+        line-height: 1.2;
+    }
+    .about_right p {
+        font-size: 15px;
+        color: #828282;
+        font-weight: 400;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+    .about_right .fa {
+        text-align: center; 
+        display: inline-block;
+        width: 40px;
+        background-color: #111;
+        color: #fff;
+        font-size: 15px;
+        padding: 12px;
+        margin: 2px;
+        text-decoration: none;
+        border-radius: 5px;
+        border: solid #111 1px; 
+        transition: color, background-color 0.5s;
+    }
+        .about_right .fa:hover{
+            background-color: #fff;
+            color: #111;
+            border: solid #111 1px;
+        }
+    .Two_buttons {
+        margin-top: 20px;
+    }
+
+
 /* END: about-me */
 
 
 
 /* START: services */
-.services {
-
+section .services {
+    display: inline-block;
+    width: 100%;
 }
+
+ .services i.fa {
+    display: inline-block;
+    /* width: 40px; */
+    color: #f34236;
+    font-size: 54px;
+    line-height: 80px;
+    /* padding: 30px; */
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    margin-right: 128px;
+    margin-left: 95px;
+    text-decoration: none;
+    border-radius: 80px;
+    text-align: center;
+    position: static;
+    
+}
+
+
+
+.services h4 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.services p {
+    text-align: center;
+}
+
+     .block {
+
+    display: inline-block;
+    width: calc( (100% - 90px) / 3 );
+    padding: 60px 40px 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 4px 12px #0005;
+    border-radius: 4px;
+    transition: transform 1s;
+    border: 2px solid #fff;
+    background-color: white;
+    }
+
+    .block:nth-child(6n) {
+        margin-right: 0;
+    }
+
+    .services .block:hover {
+        transform: translateY(-20px);
+        border: 2px solid #f34236;
+    }
+
+
 /* END: services */
 
 
 
 /* START: resume */
-.resume {
+.column-left {
+    display: inline-block;
+    width: 47%;
+    height: 450px;
+    margin-right: 2%;
+    padding: 40px 60px 0px 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 
+}
+.column-right {
+    display: inline-block;
+    width: 47%;
+    height: 450PX;
+    margin-left: 2%;
+    padding: 40px 60px 0px 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.resume h5 {
+    color: #f34236;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.resume h6 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.resume p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    }
+
+.resume p span {
+    width: 100%;
+    font-style: italic;
+    text-transform: uppercase;
 }
 /* END: resume */
 
+/* START avilable */
+.available {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.available .btn {
+    margin-bottom: 5px;
+}
+/* END avilable */
 
+.available h3::after {
+    display:none;
+}
 
 /* START: our-work */
-.our-work {
 
+
+.our-work .portfolio-images {
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+    margin-right: 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 350px;
+    background-size: cover;
+    padding: 5px;
 }
+
+
 /* END: our-work */
 
+.testimonials {
+    display: inline-block;
+    width: 100%;
+}
 
+.container .row .testimonials-block {
+    display: block;
+    width: 40%;
+    padding: 60px 40px 20px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 12px #0005;
+    border-radius: 4px;
+    background-color: white;
+    }
+
+    .testimonials-block img {
+        border-radius: 50%;
+        width: 100px;
+    }
+
+    .testimonials-block p {
+        color: gray;
+        margin-top: 20px;
+    }
+
+    .testimonials-block h5 {
+        margin-top: 20px;
+    }
 
 /* START: blog */
 .blog {
@@ -147,7 +391,47 @@ text-align: center;
 
 
 /* START: Footer */
-footer {
-
+.footer {
+    display: inline-block;
+    width: 100%;
+    background-color:rgb(33, 33, 33);
+    color: #fff;
+    text-align: center;
 }
+    .footer .fa {
+        display: inline-block;
+        width: 40px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 20px;
+        margin: 10px;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+    .social-links {
+        border-bottom: 1px solid rgb(255, 255, 255, 0.07);
+    }
+        .footer .fa:hover {
+            background-color: red;
+            color: #fff;
+        }
+            .footer-logo {
+                /*padding: 0 0 20px;
+                margin: 0;
+                font-size: 22px;
+                letter-spacing: 2px;
+                font-weight: 300;*/
+                font-size: 43px;
+                font-weight: bolder;
+                line-height: 43px;
+                margin-bottom: 20px;
+                margin-top: 60px;
+            }
+               .footer-text {
+                    color: #999;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
 /* END: Footer */

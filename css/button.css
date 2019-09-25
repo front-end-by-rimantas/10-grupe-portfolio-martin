@@ -1,0 +1,28 @@
+.btn {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 17px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color, box-shadow 0.7s;
+}
+    .btn:hover {
+        background-color: #000;
+        box-shadow: 5px 5px 10px #f3433673;
+    }
+
+    .white {
+        background-color: #fff;
+        color: var(--main-color);
+        border: solid #fff 1px;
+        transition: color, box-shadow 0.7s;
+        
+    }
+        .white:hover {
+            background-color: var(--main-color);
+            color: #fff;
+            border: solid #fff 1px;
+            box-shadow: 5px 5px 10px #0005;
+        }

@@ -5,9 +5,9 @@
 
 .container > .row {
     display: inline-block;
-    width: 1100px;
-    margin: 0 calc( 50% - 550px );
-    padding: 80px 0;
+    width: 1200px;
+    margin: 20px calc( 50% - 600px );
+    padding: 60px 0;
 
 }
 
@@ -61,5 +61,17 @@ footer .container > .row {
 
     p {
         font-size: 14px;
+    }
+
+    .services .block1 {
+        width: 200px;
+    }
+
+    .services .block2 {
+        width: 200px;
+    }
+
+    .services .block3 {
+        width: 200px;
     }
 }
