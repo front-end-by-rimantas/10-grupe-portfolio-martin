@@ -48,9 +48,9 @@
         .nav-right {
             display: inline-block;
             float: right;
-            width: 45%;       
-        }
-            a {
+            width: 45%; 
+        }   
+                .headers_links {
                 display: inline-block;
                 font-size: 20px;
                 text-decoration: none;
