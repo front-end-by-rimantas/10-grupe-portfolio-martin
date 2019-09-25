@@ -222,57 +222,40 @@ section .services {
         transform: translateY(-20px);
         border: 2px solid #f34236;
     }
-
-
 /* END: services */
 
 
 
 /* START: resume */
-.column-left {
+.column {
     display: inline-block;
     width: 47%;
-    height: 450px;
     margin-right: 2%;
-    padding: 40px 60px 0px 20px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-
-}
-.column-right {
-    display: inline-block;
-    width: 47%;
-    height: 450PX;
-    margin-left: 2%;
-    padding: 40px 60px 0px 20px;
+    padding: 40px 60px 40px 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
-
-.resume h5 {
-    color: #f34236;
-    font-size: 22px;
-    font-weight: 600;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.resume h6 {
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.resume p {
-    font-size: 15px;
-    padding-bottom: 20px;
+    .resume h5 {
+        color: #f34236;
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        text-transform: uppercase;
     }
-
-.resume p span {
-    width: 100%;
-    font-style: italic;
-    text-transform: uppercase;
-}
+    .resume h6 {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .resume p {
+        font-size: 15px;
+        padding-bottom: 20px;
+        }
+    .resume p span {
+        width: 100%;
+        font-style: italic;
+        text-transform: uppercase;
+    }
 /* END: resume */
 
 /* START aviable */
@@ -314,9 +297,29 @@ section .services {
 }
 
 /* START: blog */
-.blog {
-
+.My-blogs {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+    .blogs-images {
+        display: inline-block;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .My-blogs h6 {
+        display: inline-block;
+        margin: 20px 10px 10px;
+        font-size: 12px;
+        color: #828282;
+        line-height: 15px;
+        font-weight: 200;
+    }
+
 /* END: blog */
 
 
