@@ -20,9 +20,46 @@
     }
 
 /* START: header */
-    header {
+.header-fixed {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+.navbar {
+    display: inline-block;
+    width: 100%;
+    min-height: 50px;
 
+}
+    .navbar > .row {
+        display: inline-block;
+        width: 1100px;
+        margin: 0 calc( 50% - 550px );
     }
+        .logo-text {
+            display: inline-block;
+            float: left;
+            width: 30%;
+        }
+        .nav-right {
+            display: inline-block;
+            float: right;
+            width: 45%; 
+        }   
+                .headers_links {
+                display: inline-block;
+                font-size: 20px;
+                text-decoration: none;
+                margin-left: 15px;              
+                font-weight: bold;
+                margin-top: 10px;
+                padding: 10px 0;
+                color: black;
+            }
 /* END: header */
 
 .hero {
@@ -221,57 +258,40 @@ section .services {
         transform: translateY(-20px);
         border: 2px solid #f34236;
     }
-
-
 /* END: services */
 
 
 
 /* START: resume */
-.column-left {
+.column {
     display: inline-block;
     width: 47%;
-    height: 450px;
     margin-right: 2%;
-    padding: 40px 60px 0px 20px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-
-}
-.column-right {
-    display: inline-block;
-    width: 47%;
-    height: 450PX;
-    margin-left: 2%;
-    padding: 40px 60px 0px 20px;
+    padding: 40px 60px 40px 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
-
-.resume h5 {
-    color: #f34236;
-    font-size: 22px;
-    font-weight: 600;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.resume h6 {
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.resume p {
-    font-size: 15px;
-    padding-bottom: 20px;
+    .resume h5 {
+        color: #f34236;
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        text-transform: uppercase;
     }
-
-.resume p span {
-    width: 100%;
-    font-style: italic;
-    text-transform: uppercase;
-}
+    .resume h6 {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .resume p {
+        font-size: 15px;
+        padding-bottom: 20px;
+        }
+    .resume p span {
+        width: 100%;
+        font-style: italic;
+        text-transform: uppercase;
+    }
 /* END: resume */
 
 /* START avilable */
@@ -338,9 +358,103 @@ section .services {
     }
 
 /* START: blog */
-.blog {
+.My-blogs {
+    display: inline-block;
+    width: 100%;
+    }
 
-}
+    .blogs_block {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 0 20px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .blogs-images {
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        /* float: left; */
+    }
+        .blogs_block {
+            display: inline-block;
+            float: left;
+        }
+        .blogs-images > img {
+            display: inline-block;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            transition: transform 1s ease;
+        }
+        .blogs-images > img:hover {
+            transform: scale(1.3);
+        }
+    .My-blogs h6 {
+        display: inline-block;
+        margin: 20px 0px 20px 20px;
+        font-size: 12px;
+        color: #828282;
+        line-height: 15px;
+        font-weight: 200;
+    }
+        .blogs-images + h6 {
+            border-right: #828282 solid 1px;
+            padding-right: 15px;
+        }
+    .My-blogs .Blogs-headline {
+        display: inline-block;
+        margin: 0 20px;
+        color: #111;
+        font-size: 22px;
+        text-decoration: none;
+        font-weight: 600;
+        line-height: 25px;
+        transition: color 0.5s;
+
+    }
+        .Blogs-headline:hover {
+            color: #f34236;
+        }
+    .My-blogs p {
+        display: inline-block;
+        margin: 20px;
+        color: #828282;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+    .My-blogs .Read {
+        display: inline-block;
+        color: #f34236;
+        margin: 0 20px 30px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        transition: color 0.5s;
+    }
+    .Read:hover {
+        color: #111;
+    }
+        .Read:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #f34236;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            transition: background-color 0.5s;
+        }
+        .Read:hover:after {
+            background-color: #111;
+        }
+
 /* END: blog */
 
 
