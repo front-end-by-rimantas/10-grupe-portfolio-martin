@@ -20,9 +20,46 @@
     }
 
 /* START: header */
-    header {
+.header-fixed {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+}
+.navbar {
+    display: inline-block;
+    width: 100%;
+    min-height: 50px;
 
+}
+    .navbar > .row {
+        display: inline-block;
+        width: 1100px;
+        margin: 0 calc( 50% - 550px );
     }
+        .logo-text {
+            display: inline-block;
+            float: left;
+            width: 30%;
+        }
+        .nav-right {
+            display: inline-block;
+            float: right;
+            width: 45%;       
+        }
+            a {
+                display: inline-block;
+                font-size: 20px;
+                text-decoration: none;
+                margin-left: 15px;              
+                font-weight: bold;
+                margin-top: 10px;
+                padding: 10px 0;
+                color: black;
+            }
 /* END: header */
 
 .hero {
