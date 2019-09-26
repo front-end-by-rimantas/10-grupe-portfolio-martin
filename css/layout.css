@@ -312,4 +312,15 @@ header .navbar .row {
     display: none;
 }
 
+.container .row .right-contact h6 {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+
+.container .row .right-contact p {
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
 }
