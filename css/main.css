@@ -62,6 +62,27 @@
             }
 /* END: header */
 
+/* Header animation - test START */
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .sticky .first_logo {
+    color: #f34236;
+   }
+
+   .sticky .nav-right .headers_links {
+       color: #000;
+   }
+
+   .sticky .nav-right .headers_links:after{
+       background-color: #f34236;
+   }
+/* Header animation - test END */
+
 .hero {
 display: inline-block;
 background-image: url(../img/Heroes\ photo.jpg);
@@ -238,9 +259,12 @@ section .services {
      .block {
 
     display: inline-block;
-    width: calc( (100% - 90px) / 3 );
+    /* width: calc( (100% - 90px) / 3 ); */
+    width: 30%;
     padding: 60px 40px 20px;
-    margin-right: 30px;
+    /* margin-right: 30px; */
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 40px;
     text-align: center;
     box-shadow: 0 4px 12px #0005;
@@ -265,8 +289,9 @@ section .services {
 /* START: resume */
 .column {
     display: inline-block;
-    width: 47%;
-    margin-right: 2%;
+    width: 46%;
+    margin-right: 20px;
+    margin-left: 20px;
     padding: 40px 60px 40px 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
@@ -311,16 +336,20 @@ section .services {
 
 /* START: our-work */
 
+.our-work {
+    text-align: center;
+}
 
 .our-work .portfolio-images {
     display: inline-block;
     background-color: white;
-    margin: 20px;
+    margin-bottom: 20px;
     margin-right: 20px;
+    margin-left: 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    width: 350px;
-    background-size: cover;
+    width: 25%;
+    /* background-size: cover; */
     padding: 5px;
 }
 
@@ -334,9 +363,10 @@ section .services {
 
 .container .row .testimonials-block {
     display: block;
-    width: 40%;
     padding: 60px 40px 20px;
-    margin: auto;
+    width: 100%;
+    /* margin-left: 20px; */
+    margin-right: 20px;
     text-align: center;
     box-shadow: 0 4px 12px #0005;
     border-radius: 4px;
@@ -615,3 +645,7 @@ section .services {
                     margin-bottom: 20px;
                 }
 /* END: Footer */
+ 
+
+
+
