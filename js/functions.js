@@ -46,3 +46,14 @@ function renderBlogsImages( data ) {
     }
     return document.getElementById('My_blogs').innerHTML = HTML;
 }
+// headerio spalvos keitimas scrolinant zemyn
+let header = document.getElementById("myHeader");
+let sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}

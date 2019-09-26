@@ -20,7 +20,7 @@
     }
 
 /* START: header */
-.header-fixed {
+header {
     display: inline-block;
     width: 100%;
     position: fixed;
@@ -58,8 +58,57 @@
                 font-weight: bold;
                 margin-top: 10px;
                 padding: 10px 0;
-                color: black;
+                color: #fff;
+                position: relative;
             }
+            .nav-right .headers_links:after {
+                content: "";
+                display: block;
+                width: 100%;
+                height: 3px;
+                background-color: #fff;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                opacity: 0;
+                transition: opacity 0.2s;
+                animation-name: width;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+                animation-fill-mode: backwards;
+            }
+                @keyframes width {
+                    0% {
+                        width: 0;
+                    }
+                    100% {
+                        width: 100%;
+                    }
+                }
+                .nav-right .headers_links:hover:after{
+                    opacity: 1;
+                }
+ 
+/* Header animation - test START */
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .sticky .first_logo {
+    color: #f34236;
+   }
+
+   .sticky .nav-right .headers_links {
+       color: #000;
+   }
+
+   .sticky .nav-right .headers_links:after{
+       background-color: #f34236;
+   }
+/* Header animation - test END */
 /* END: header */
 
 .hero {
