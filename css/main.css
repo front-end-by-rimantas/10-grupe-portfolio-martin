@@ -20,7 +20,7 @@
     }
 
 /* START: header */
-.header-fixed {
+header {
     display: inline-block;
     width: 100%;
     position: fixed;
@@ -88,7 +88,27 @@
                 .nav-right .headers_links:hover:after{
                     opacity: 1;
                 }
+ 
+/* Header animation - test START */
+.sticky {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
+  .sticky .first_logo {
+    color: #f34236;
+   }
+
+   .sticky .nav-right .headers_links {
+       color: #000;
+   }
+
+   .sticky .nav-right .headers_links:after{
+       background-color: #f34236;
+   }
+/* Header animation - test END */
 /* END: header */
 
 .hero {
