@@ -383,9 +383,112 @@ section .services {
 
 
 /* START: contact */
-.contact {
-
+#contact {
+    display: inline-block;
 }
+    .left-contact {
+        display: inline-block;
+        width: 60%;
+        float: left;
+        margin-right: 30px; 
+        margin-left: 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        position: relative;
+        box-shadow: 0 4px 12px #0005;
+    }
+        h5 {
+            display: inline-block;
+            font-size: 28px;
+            font-weight: 600;
+            margin: 30px 0px 10px 30px;
+        }
+        .left-contact-p {
+            margin-left: 30px;
+            color: rgb(130, 130, 130);
+        }
+        .fa-paper-plane {
+            font-size: 60px;
+            position: absolute;
+            top: 45px;
+            right: 30px;
+            opacity: 0.1;
+        }
+        form {
+            display: inline-block;
+            width: calc(60%-60px);
+            margin: 30px;
+        }
+        form input {
+            display: inline-block;
+            width: calc(50% - 15px);
+            float: left;
+            font-size: 15px;
+            line-height: 45px;
+            margin-bottom: 20px;
+        }    
+            input::placeholder {
+                font-size: 15px;
+                padding: 10px 0px 0px 10px;
+            }
+            form input:nth-child(2) {
+                margin-left: 30px;
+            }
+        form textarea {
+            padding: 10px 0px 0px 10px;
+            display: inline-block;
+            width: 100%;
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 20px;
+            min-height: 150px;
+            max-height: 300px;
+        }
+
+    .right-contact {
+        display: inline-block;
+        width: 30%;
+        float: left;
+        box-sizing: border-box;
+        background-color: #fff;
+        box-shadow: 0 4px 12px #0005;
+        padding-bottom: 110px;
+    }
+        .contact-address-box {
+            display: inline-block;
+            width: 100%;
+        }
+            .contact-address-box-icon > .fa-archive  {
+                display: inline-block;
+                width: 20%;
+                float: left;
+                box-sizing: border-box;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                border-radius: 50%;
+                color: #fff; 
+                background-color: black;
+                margin: 30px 0px 20px 40px;
+                text-align: center;
+            }
+            .contact-address-box-text {
+                display: inline-block;
+                width: 70%;
+                float: right;
+            }
+            .contact-address-box-text > h6 {
+                font-size: 16px;
+                font-weight: 600;
+                margin: 30px 0px 10px 20px;
+            }
+            .right-contact-p {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 1.6;
+                margin-left: 0px 0px 5px 20px;
+            }
 /* END: contact */
 
 
