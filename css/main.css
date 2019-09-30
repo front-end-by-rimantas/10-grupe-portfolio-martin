@@ -324,7 +324,7 @@ section .services {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
-    .resume h5 {
+    .resume .work {
         color: #f34236;
         font-size: 22px;
         font-weight: 600;
@@ -545,7 +545,7 @@ section .services {
         position: relative;
         box-shadow: 0 4px 12px #0005;
     }
-        .left-contact h5 {
+        h5 {
             display: inline-block;
             font-size: 28px;
             font-weight: 600;
