@@ -12,11 +12,16 @@
     /* width: 1100px;
     margin: 0 calc(50% - 550px); */
 }
+
+.dropdown {
+    display: none;
+}
 @media (max-width: 1200px) {
     .container .row {
         width: 1100px;
         margin: 0 calc(50% - 400px);
     }
+
 }
 
 @media (max-width: 1100px) {
@@ -42,25 +47,21 @@
         margin-left: 20px;
     }
 
-    .container .row .my_services {
-        margin-right: 30px;
-        text-align: center;
-    }
 
-    .container .row .services .my_services .block {
-    
+    .container .row .block {
         display: block;
-        width: calc(100% - 80px);
-        margin-right: 40px;
-        margin-left: 40px;
+        width: calc(100% - 40px);
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
-    .container .row .my_services .block i.fa {
+    .container .row .block i.fa {
+        display: block;
         width: calc(100% - 40px);
-        margin-left: 20px;
         margin-right: 20px;
-        text-align: center;
+        margin-left: 20px;
     }
+
 
     .container .row .My-blogs {
         text-align: center;
@@ -103,6 +104,72 @@
         margin-right: 20px;
     }
 
+    .dropdown {
+        display: inline-block;
+        float: right;
+        margin-right: 20px;
+        margin-top: -48px;
+        margin-bottom: -6px;
+        color: #fff;
+        background-color: #f34236;
+        width: 40px;
+        height: 40px;
+        position: relative;
+    }
+    
+    .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-right: 10px;
+        margin-left: -50px;
+        margin-top: 10px;
+      }
+    
+      .dropdown-content a {
+        color: black;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: block;
+      }
+    
+      .dropdown-content a:hover {
+         color: #f34236
+        }
+          
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        box-shadow: 0px 2px 4px #0009;
+    
+      }
+    
+    .dropdown i {
+        margin-left: 7px;
+        margin-right: 5px;
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    
+    .sticky .dropdown {
+        color: #fff;
+    }
+
+    .header-fixed .navbar .row {
+        display: inline-block;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .header-fixed .navbar .row .nav-right {
+        display: none;
+    
+    }
+
+
 }
 
 @media (max-width: 900px) {
@@ -112,15 +179,18 @@
     }
 
     .container .row .my_services {
-        margin-right: 30px;
+        width: calc(100% - 40px);
+        margin-right: 20px;
+        margin-right: 20px;
+
     }
     
     .container .row .services .my_services .block {
     
         display: block;
-        width: calc(100% - 80px);
-        margin-right: 40px;
-        margin-left: 40px;
+        width: calc(100% - 40px);
+        margin-right: 20px;
+        margin-left: 20px;
     }
     
     .container .row .my_services .block i.fa {
@@ -134,6 +204,13 @@
         display: none;
     }
 
+
+    .container .row .block {
+        display: inline-block;
+        width: 100%;
+        margin-right: 30px;
+    }
+
     .container .row .my_services {
         margin-right: 30px;
         text-align: center;
@@ -141,9 +218,9 @@
 
     .container .row .services .my_services .block {
         display: block;
-        width: calc(100% - 80px);
-        margin-right: 40px;
-        margin-left: 40px;
+        width: calc(100% - 40px);
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .container .row .my_services .block i.fa {
@@ -152,6 +229,84 @@
         margin-left: 20px;
         margin-right: 20px;
         text-align: center;
+    }
+
+    /* Sita vieta pakoreguoti contact form */
+
+    .container .row .right-contact h6 {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    
+    
+    .container .row .right-contact p {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .dropdown {
+        display: inline-block;
+        float: right;
+        margin-right: 20px;
+        margin-top: -48px;
+        margin-bottom: -6px;
+        color: #fff;
+        background-color: #f34236;
+        width: 40px;
+        height: 40px;
+        position: relative;
+    }
+    
+    .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-right: 10px;
+        margin-left: -50px;
+        margin-top: 10px;
+      }
+    
+      .dropdown-content a {
+        color: black;
+        padding: 12px 20px;
+        text-decoration: none;
+        display: block;
+      }
+    
+      .dropdown-content a:hover {
+         color: #f34236
+        }
+          
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        box-shadow: 0px 2px 4px #0009;
+    
+      }
+    
+    .dropdown i {
+        margin-left: 7px;
+        margin-right: 5px;
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    
+    .sticky .dropdown {
+        color: #fff;
+    }
+
+    .header-fixed .navbar .row {
+        display: inline-block;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    
+    .header-fixed .navbar .row .nav-right {
+        display: none;
+    
     }
 }
 @media (max-width: 700px) {
@@ -164,7 +319,6 @@
 
 
     .container .row .block {
-        text-align: center;
         width: 100%;
         margin-left: 20px;
         margin-right: 20px;
@@ -197,6 +351,8 @@
         margin-right: 20px;
         text-align: center;
     }
+
+    
 
 
 }
@@ -244,12 +400,7 @@
     text-align: center;
 }
 
-.container .row .my_services {
-    margin-right: 30px;
-}
-
 .container .row .services .my_services .block {
-
     display: block;
     width: calc(100% - 40px);
     margin-right: 20px;
@@ -312,15 +463,95 @@ header .navbar .row {
     display: none;
 }
 
+
+
 .container .row .right-contact h6 {
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
 .container .row .right-contact p {
-    margin-left: -40px;
-    margin-right: -40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.container .row .testimonials-block img {
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+
+
+.header-fixed .navbar .row {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.header-fixed .navbar .row .nav-right {
+    display: none;
+
+}
+
+
+
+.dropdown {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: -48px;
+    margin-bottom: -6px;
+    color: #fff;
+    background-color: #f34236;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-right: 10px;
+    margin-left: -50px;
+    margin-top: 10px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+     color: #f34236
+    }
+      
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    box-shadow: 0px 2px 4px #0009;
+
+  }
+
+.dropdown i {
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.sticky .dropdown {
+    color: #fff;
 }
 
 }
