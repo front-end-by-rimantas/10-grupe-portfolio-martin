@@ -662,6 +662,7 @@ section .services {
         text-decoration: none;
         border-radius: 50%;
         margin-bottom: 40px;
+        border: solid #111 1px;
         transition: color, background-color 0.5s;
     }
         .footer .fa:hover{
