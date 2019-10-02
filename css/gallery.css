@@ -39,20 +39,20 @@
                 background-color: #f34236;
                 color: white;
                 width: 100%;
-                padding: 20px 0;
+                padding: 16px 0;
                 font-size: 16px;
                 font-weight: 500;
                 line-height: 20px;
                 margin-top: calc( 100% - 60px );
                 position: relative;
-            }
+                }
                 .images-txt:before {
                     display: inline-block;
                     content: '';
                     width: 20%;
                     height: 1px;
                     position: absolute;
-                    top: -175%;
+                    top: -225%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     background-color: #fff;
@@ -68,7 +68,7 @@
                     width: 1px;
                     height: 80%;
                     position: absolute;
-                    top: -175%;
+                    top: -225%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     background-color: #fff;

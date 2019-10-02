@@ -59,10 +59,22 @@ function myFunction() {
 }
 
 function renderPortfolio ( target, data ) {
-  let filter_HTML = `<div class="filter-items"></div>
-                      <div class="filter-items"></div>
-                      <div class="filter-items"></div>`;
+  let filter_HTML = ``;
+  let unique_tags =[];
 
+  for ( let i=0; i<data.length; i++ ) {
+    let category = data[i].cat;
+      if ( unique_tags.indexOf(category) === -1 ) {
+        unique_tags.push (category);
+        }
+  }
+
+
+  for ( let i=0; i<unique_tags.length; i++ ) {
+   
+    filter_HTML += `<div class="filter-items">${unique_tags[i]}</div>`
+  }
+  
 let galery_HTML = ``
   for ( let i=0; i<data.length; i++ ){
     galery_HTML += `<div class="portfolio_images">
