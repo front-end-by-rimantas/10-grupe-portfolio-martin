@@ -1,3 +1,21 @@
+/* .our-work .render {
+    margin-bottom: 5px;
+    margin-top: 5px;
+} */
+
+
+.filter {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+    .filter-items {
+        display: inline-block;
+
+    }
+
+
+
 .portfolio_images {
     display: inline-block;
     position: relative;
@@ -10,6 +28,9 @@
     border-radius: 10px;
     text-align: center;
 }
+.portfolio_images.hidden {
+    display: none;
+    }
 
     .Portf_img {
         display: block;
