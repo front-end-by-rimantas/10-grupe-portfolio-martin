@@ -48,7 +48,7 @@
         .nav-right {
             display: inline-block;
             float: right;
-            width: 47%; 
+            /* width: 47%;  */
         }   
         .headers_links {
             display: inline-block;
@@ -186,7 +186,7 @@ text-align: center;
     display: inline-block;
     background-color: white;
     float: left;
-    width: 40%;
+    width: 39%;
     margin-right: 60px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
@@ -317,7 +317,7 @@ section .services {
 /* START: resume */
 .column {
     display: inline-block;
-    width: 46%;
+    width: 45%;
     margin-right: 20px;
     margin-left: 20px;
     padding: 40px 60px 40px 20px;
@@ -361,28 +361,6 @@ section .services {
 .available h3::after {
     display:none;
 }
-
-/* START: our-work */
-
-.our-work {
-    text-align: center;
-}
-
-.our-work .portfolio-images {
-    display: inline-block;
-    background-color: white;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    width: 25%;
-    /* background-size: cover; */
-    padding: 5px;
-}
-
-
-/* END: our-work */
 
 /* START: Testimonials */
 
@@ -477,7 +455,7 @@ section .services {
 
     .blogs_block {
     display: inline-block;
-    width: 30%;
+    width: 29%;
     float: left;
     margin: 0 20px;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
