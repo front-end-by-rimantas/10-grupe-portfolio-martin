@@ -57,3 +57,43 @@ const My_blogs = [
         last: 'Read More'
     },
 ]
+
+const portfolio = [
+    {
+        pic: 'apps.jpg',
+        cat: 'Apps'
+    },
+    {
+        pic: 'apps1.jpg',
+        cat: 'Apps'
+    },
+    {
+        pic: 'illustration.jpg',
+        cat: 'Illustration'
+    },
+    {
+        pic: 'illustration1.jpg',
+        cat: 'Illustration'
+    },
+    {
+        pic: 'illustration2.jpg',
+        cat: 'Illustration'
+    },
+    {
+        pic: 'photoshop.jpg',
+        cat: 'Photoshop'
+    },
+    {
+        pic: 'photoshop1.jpg',
+        cat: 'Photoshop'
+    },
+    {
+        pic: 'photoshop2.jpg',
+        cat: 'Photoshop'
+    },
+    {
+        pic: 'website.jpg',
+        cat: 'Website'
+    },
+
+]
