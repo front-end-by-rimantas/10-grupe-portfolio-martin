@@ -384,49 +384,90 @@ section .services {
 
 /* END: our-work */
 
+/* START: Testimonials */
+
 .testimonials {
     display: inline-block;
     width: 100%;
-}
-
-.container .row .testimonials-block {
-    display: block;
-    padding: 60px 40px 20px;
-    width: 100%;
-    /* margin-left: 20px; */
-    margin-right: 20px;
     text-align: center;
-    box-shadow: 0 4px 12px #0005;
-    border-radius: 4px;
-    background-color: white;
-    }
+}  
+      .testimonials  .list {
+        display: inline-block;
+        width: 50%;
 
-    .container .row .testimonials-block .testimonials-h5 {
-        font-size: 20px;
-        text-align: center;
-        margin-left: -80px;
-        margin-right: -80px;
-    }
+      }
+        .testimonials  .list .item {
+            display: none;
+            padding: 50px 20px 30px;
+            border: 1px solid #ddd;
+            text-align: center;
+            background: #ffffff;
+            border-radius: 5px;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
 
-    .container .row .testimonials-block .testimonials-label {
-        text-align: center;
-        margin-left: -50px;
-        margin-right: -50px;
-    }
+        .testimonials  .list .item.active {
+            display: inline-block;
+        }
 
-    .testimonials-block img {
-        border-radius: 50%;
-        width: 100px;
-    }
+        .testimonials  .list .item + {
+            display: none;
+            width: 100%;
+        }
 
-    .testimonials-block p {
-        color: gray;
+            .testimonials  .list .image {
+                background-size: cover;
+                width: 100px;
+                border-radius: 50%;
+                margin-bottom: 20px;
+
+            }
+            .testimonials  .list .text {
+                font-size: 20px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                color: gray;
+
+            }
+            .testimonials  .list .author {
+                font-weight: bold;
+
+            }
+            .testimonials  .list .title {
+                color: lightgray;
+
+            }
+
+      .testimonials  .controls {
+        display: inline-block;
+        width: 100%;
         margin-top: 20px;
-    }
+        }
 
-    .testimonials-block h5 {
-        margin-top: 20px;
-    }
+        .testimonials  .controls .circle {
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 50%;
+            vertical-align: top;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            background: #f34236;
+            /* border: 1px solid #f34236; */
+            cursor: pointer;
+
+        }
+
+        .testimonials .controls .circle .color-circle {
+            display: inline-block;
+            background-color: #f34236;
+            width: inherit;
+            height: inherit;
+        }
+
+
+/* END: Testimonials */
 
 /* START: blog */
 .My-blogs {

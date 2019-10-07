@@ -57,3 +57,47 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+// TESTIMONIALS
+
+function renderTestimonials( target, data ) {
+  let items_HTML = '';
+
+
+    data.forEach( (t,index) => {
+
+    
+        items_HTML += `<div class="item ${index === data.length-1 ? 'active' : ''}">
+                        <img class="image" src="${t.image}" title="alt">
+                        <div class="text">${t.text}</div>
+                        <div class="author">${t.author}</div>
+                        <div class="title">${t.title}</div>
+                      </div>`
+    });
+
+
+  let HTML = `<section class="testimonials">
+              <div class="list">
+                    ${items_HTML}
+                  
+              </div>
+              <div class="controls">
+                  <div class="color-cirle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                  <div class="circle"></div>
+                </div>
+            <section>`;
+
+  console.log(data);
+
+
+  return document.querySelector(target).innerHTML = HTML;
+}
+
+function updateVisibleTestimonial( event ) {
+  return;
+}
+
+// TESTIMONIALS
