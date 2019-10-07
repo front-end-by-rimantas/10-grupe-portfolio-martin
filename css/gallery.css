@@ -1,13 +1,3 @@
-.our-work  > .row {
-    /* padding-bottom: 0; */
-    /* margin-bottom: -50px; */
-}
-
-/* .portfolio_head {
-    padding-bottom: 0;
-    margin-bottom: 0;
-} */
-
 .our-work > .portf_head {
     margin-bottom: -50px;
     padding-bottom: 0;
@@ -39,7 +29,7 @@
 .portfolio_images {
     display: inline-block;
     position: relative;
-    width: 30%;
+    width: 29%;
     float: left;
     margin-bottom: 20px;
     margin-right: 20px;
