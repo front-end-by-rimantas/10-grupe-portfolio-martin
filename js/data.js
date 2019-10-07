@@ -56,6 +56,35 @@ const My_blogs = [
         par: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
         last: 'Read More'
     },
+];
+
+const testimonials = [
+    {
+        image: './img/testimonials-images/testimonials.jpg',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        author: 'Lorem Ipsum',
+        title: 'Co-founder'
+    },
+    {
+        image: './img/testimonials-images/testimonials.jpg',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        author: 'Nancy Bayers',
+        title: 'Co-founder'
+    },
+    {
+        image: './img/testimonials-images/testimonials.jpg',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        author: 'John Daniels',
+        title: 'Co-founder'
+    },
+
+    {
+        image: './img/testimonials-images/testimonials.jpg',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+        author: 'Chuck Norris',
+        title: 'Co-founder'
+    }
+];
 ]
 
 const portfolio = [
