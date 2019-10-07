@@ -362,28 +362,6 @@ section .services {
     display:none;
 }
 
-/* START: our-work */
-
-.our-work {
-    text-align: center;
-}
-
-.our-work .portfolio-images {
-    display: inline-block;
-    background-color: white;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    width: 25%;
-    /* background-size: cover; */
-    padding: 5px;
-}
-
-
-/* END: our-work */
-
 .testimonials {
     display: inline-block;
     width: 100%;
