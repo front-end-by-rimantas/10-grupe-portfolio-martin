@@ -85,7 +85,7 @@ const testimonials = [
         title: 'Co-founder'
     }
 ];
-]
+
 
 const portfolio = [
     {
