@@ -160,3 +160,44 @@ function updateVisibleTestimonial( event ) {
 }
 
 // TESTIMONIALS
+
+
+
+//Contact me
+
+function renderContactInfo( data ) {
+  let HTML = '';
+  let quality = 0;
+
+  for ( let i=0; i<data.length; i++ ) {
+    const obj = data[i];
+
+      /*if ( !obj.icon ||
+            !obj.title ) {
+          continue;
+      }*/
+
+      if ( quality === 3 ) {
+          break;
+      }
+
+    HTML += `<div class="contact-address-box">
+        <div class="contact-address-box-icon">
+            <i class="fa fa-${obj.icon}"></i>
+        </div>
+        <div class="contact-address-box-text">
+            <h6>${obj.title}</h6>
+            <p class="right-contact-p">${obj.text}</p> 
+        </div>
+    </div>`;
+    quality++;
+
+            /*HTML += `<div class="block">
+                        <i class="fa fa-${obj.icon}"></i>
+                        <h6>${obj.title}</h6>
+                        <p>${obj.text}</p>
+                    </div>`;
+            quality++;*/
+  }
+  return document.getElementById("rightContactInformation").innerHTML = HTML;
+}

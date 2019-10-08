@@ -14,3 +14,4 @@ document.querySelectorAll('.testimonials > .controls > .circle').forEach( arrow 
 
 })
 
+renderContactInfo( contactInfo );
