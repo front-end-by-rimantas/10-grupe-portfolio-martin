@@ -621,18 +621,19 @@ section .services {
         box-sizing: border-box;
         background-color: #fff;
         box-shadow: 0 4px 12px #0005;
-        padding-bottom: 125px;
+        padding-bottom: 96px;
     }
 
         .right-contact-infoblock {
             display: inline-block;
             width: 100%;
-            margin: 30px 40px 0px 20px;
+           padding: 15px 30px 15px 30px;
         }
             .contact-address-box {
                 display: inline-block;
                 width: 100%;
-                margin-left: 20px;
+                /*margin-left: 20px;*/
+                padding: 15px 0px 15px 0px;
             }
 
             .contact-address-box-icon > .fa {
@@ -647,23 +648,26 @@ section .services {
                 border-radius: 50%;
                 color: #fff; 
                 background-color: black;
-                margin-top: 20px;
+                /*margin-top: 20px;*/
                 text-align: center;
             }
             .contact-address-box-text {
                 display: inline-block;
                 width: 80%;
                 float: right;
+                /*padding-left: 10px;*/
             }
             .contact-address-box-text > h6 {
                 font-size: 16px;
                 font-weight: 600;
-                margin: 20px 0px 10px 0px;
+                margin-bottom: 10px;
+                padding: 0px 20px 0px 10px;
             }
             .right-contact-p {
                 font-size: 15px;
                 font-weight: 400;
                 line-height: 1.6;
+                padding-left: 10px;
             }
 /* END: contact */
 
