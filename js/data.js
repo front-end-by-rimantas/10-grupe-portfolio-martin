@@ -126,3 +126,22 @@ const portfolio = [
     },
 
 ]
+
+const contactInfo = [
+    {
+        icon: 'map-marker', 
+        title: 'Address',
+        text: '123 6th St. Melbourne, <br> FL 32904, USA'
+    },
+    {
+        icon: 'envelope', 
+        title: 'Email',
+        text: 'info@yourdomain.com <br> sale@yourdomain.com'
+    },
+    {
+        icon: 'phone', 
+        title: 'Address',
+        text: 'Mob: +01 000 000 000 <br> Fax: +01 000 000 000'
+    }
+   
+];
